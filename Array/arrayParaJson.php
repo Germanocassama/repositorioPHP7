@@ -1,0 +1,9 @@
+<?php 
+
+$jon = '[{"nome": "João","idade": 20},{"nome": "Glaucio","idade": 25}]';
+
+$data = json_decode($jon, true);
+var_dump($data);
+
+
+ ?>
